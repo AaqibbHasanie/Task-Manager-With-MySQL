@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1>Task Manager</h1>
+    </header>
+
+    <main>
+
+
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter new task">
+            <button type="submit">Add Task</button>
+        </form>
+
+        <table id="task-table">
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Task Description</th>
+                    <th>Completed</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="task-list"></tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <p>&copy; Task Manager using MySQL By Aaqib Hasanie</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
